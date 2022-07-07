@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: #999;
+}
+
+#tracker {
+    margin: auto;
+    width: 400px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.input-text {
+    width: 99%;
+    height: 20px;
+}
+
+.pinned {
+    font-size: 1.5em;
+}
+
+.all-tasks {
+    font-size: 1.5em;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid #999;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+li > input {
+    width: 18px;
+    height: 30px;
+
+}
+
+.task-text {
+
+}
